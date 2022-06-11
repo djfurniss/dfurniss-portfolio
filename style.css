@@ -1,5 +1,5 @@
 body {
-  background-color: #f5e9e2;
+  background-color: #f7eee9;
 }
 
 header h1 {
@@ -22,10 +22,53 @@ header h3 {
   text-align: center;
 }
 
+hr {
+  border: #006e90;
+  border-style: solid;
+  margin-bottom: 0px;
+}
+
+/*//////nav styles//////*/
+nav {
+  padding: 10px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+nav a {
+  color: #ff7b9c;
+  padding: 10px;
+  text-decoration: none;
+  margin-left: 40px;
+}
+nav a:hover {
+  color: #ffb866;
+  text-decoration: none;
+}
+nav a:active {
+  color: #006e90;
+}
+
+/*//////main styles///////*/
+main {
+  font-size: 20px;
+  text-align: center;
+  list-style-position: inside;
+}
+
+main div.main-div {
+  display: block;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+main h2 {
+  font-size: 40px;
+}
 main img.center {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
   width: 300px;
   height: 300px;
   size: 15%;
@@ -34,4 +77,47 @@ main img.center {
   border-style: solid;
   border-width: 5px;
   border-radius: 50%;
+}
+
+p.funfacts {
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+/*//////////// footer styles//////////////*/
+
+footer {
+  box-sizing: border-box;
+  margin-left: 15px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+footer div {
+  float: left;
+  font-size: 15px;
+}
+footer div.contact-me {
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #ff7b9c;
+  font-weight: bold;
+  font-size: larger;
+}
+footer li {
+  float: left;
+  margin-right: 30px;
+  padding-top: 10px;
+  list-style: square;
+}
+footer a {
+  color: #ff7b9c;
+  text-decoration: none;
+}
+footer a:visited {
+  color: grey;
+}
+footer a:hover {
+  color: #ffb866;
+}
+footer a:active {
+  color: #006e90;
 }
