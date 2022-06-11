@@ -1,5 +1,5 @@
 body {
-  background-color: #f7eee9;
+  background-color: #fcf3f3;
 }
 
 header h1 {
@@ -23,7 +23,7 @@ header h3 {
 }
 
 hr {
-  border: #006e90;
+  border: grey;
   border-style: solid;
   margin-bottom: 0px;
 }
@@ -87,25 +87,26 @@ p.funfacts {
 
 footer {
   box-sizing: border-box;
-  margin-left: 15px;
+  margin: 0px 15px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 0px;
+  font-size: 15px;
 }
 footer div {
   float: left;
-  font-size: 15px;
 }
-footer div.contact-me {
+footer p.contact-me {
   box-sizing: border-box;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   color: #ff7b9c;
   font-weight: bold;
-  font-size: larger;
+  font-size: 20px;
+  margin-top: 10px;
 }
 footer li {
   float: left;
   margin-right: 30px;
-  padding-top: 10px;
   list-style: square;
 }
 footer a {
@@ -120,4 +121,10 @@ footer a:hover {
 }
 footer a:active {
   color: #006e90;
+}
+
+footer p.to-the-top a {
+  float: right;
+  margin: 15px 15px;
+  color: #ffb866;
 }
