@@ -1,0 +1,37 @@
+body {
+  background-color: #f5e9e2;
+}
+
+header h1 {
+  box-sizing: border-box;
+  /*background-color: rgb(206, 171, 239);*/
+  text-align: center;
+  font-size: 100px;
+  font-family: "";
+  color: #ffb866;
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+
+header img {
+  width: 50px;
+  padding-left: 580px;
+}
+
+header h3 {
+  text-align: center;
+}
+
+main img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 300px;
+  size: 15%;
+  object-fit: cover;
+  border: #ffb866;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 50%;
+}
