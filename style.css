@@ -1,5 +1,5 @@
 body {
-  background-color: #fcf3f3;
+  background-color: #f0ead15d;
 }
 
 header h1 {
@@ -8,17 +8,11 @@ header h1 {
   text-align: center;
   font-size: 100px;
   font-family: "";
-  color: #ffb866;
+  color: #f2901f;
   margin-top: 60px;
   margin-bottom: 10px;
 }
-
-header img {
-  width: 50px;
-  padding-left: 580px;
-}
-
-header h3 {
+header h2 {
   text-align: center;
 }
 
@@ -36,13 +30,13 @@ nav {
   font-size: 20px;
 }
 nav a {
-  color: #ff7b9c;
+  color: #e13560;
   padding: 10px;
   text-decoration: none;
   margin-left: 40px;
 }
 nav a:hover {
-  color: #ffb866;
+  color: #f2901f;
   text-decoration: none;
 }
 nav a:active {
@@ -73,7 +67,7 @@ main img.center {
   height: 300px;
   size: 15%;
   object-fit: cover;
-  border: #ffb866;
+  border: #f2901f;
   border-style: solid;
   border-width: 5px;
   border-radius: 50%;
@@ -95,11 +89,11 @@ footer {
 footer div {
   float: left;
 }
-footer p.contact-me {
+footer h3.contact-me {
   box-sizing: border-box;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  color: #ff7b9c;
+  color: #e13560;
   font-weight: bold;
   font-size: 20px;
   margin-top: 10px;
@@ -110,14 +104,14 @@ footer li {
   list-style: square;
 }
 footer a {
-  color: #ff7b9c;
+  color: #e13560;
   text-decoration: none;
 }
 footer a:visited {
   color: grey;
 }
 footer a:hover {
-  color: #ffb866;
+  color: #f2901f;
 }
 footer a:active {
   color: #006e90;
@@ -126,5 +120,5 @@ footer a:active {
 footer p.to-the-top a {
   float: right;
   margin: 15px 15px;
-  color: #ffb866;
+  color: #f2901f;
 }
