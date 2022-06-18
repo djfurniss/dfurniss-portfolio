@@ -1,83 +1,110 @@
 body {
   background-color: #f0ead15d;
 }
-
-header h1 {
-  box-sizing: border-box;
-  /*background-color: rgb(206, 171, 239);*/
-  text-align: center;
-  font-size: 100px;
-  font-family: "";
-  color: #f2901f;
-  margin-top: 60px;
-  margin-bottom: 10px;
-}
-header h2 {
-  text-align: center;
-}
-
 hr {
   border: grey;
   border-style: solid;
   margin-bottom: 0px;
 }
+/* //////////////////////////////header/////////////////////////////// */
+/* .center{
+  item: center;
+} */
+header div.flex-container1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+header h1 {
+  font-size: 100px;
+  color: #F18805;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  /* box-sizing: border-box; */
+  /*background-color: rgb(206, 171, 239);*/
+  /* font-family: ""; */
+}
+header h2 {
+  text-align: center;
+}
+header img {
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* margin-top: 30px; */
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border: #F18805 solid 5px;
+  border-radius: 50%;
+  justify-self: center;
+}
 
-/*//////nav styles//////*/
+
+/*/////////////////////////////nav styles////////////////////////////*/
 nav {
   padding: 10px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-weight: bold;
   font-size: 20px;
+  background-color:#1446A0;
 }
 nav a {
-  color: #e13560;
+  color: #FCF0CC;
   padding: 10px;
   text-decoration: none;
-  margin-left: 40px;
+  margin: 0px 20px;
+  /* border: black solid 2px;
+  border-radius: 10%; */
 }
 nav a:hover {
-  color: #f2901f;
+  color: #F18805;
   text-decoration: none;
 }
 nav a:active {
   color: #006e90;
 }
 
-/*//////main styles///////*/
+/*////////////////////////////main styles/////////////////////////////*/
 main {
   font-size: 20px;
   text-align: center;
   list-style-position: inside;
 }
-
-main div.main-div {
-  display: block;
-  margin-left: 15%;
-  margin-right: 15%;
+article.flex-container2 {
+  display: flex;
+  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  justify-items:center;
+  /* how do i do space evenly? */
+  /* background-color: beige; */
+}
+.flex-container2 div{
+  flex: 2;
+}
+.flex-container2 section{
+  flex: 2;
 }
 main h2 {
   font-size: 40px;
 }
-main img.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-  width: 300px;
-  height: 300px;
-  size: 15%;
-  object-fit: cover;
-  border: #f2901f;
+/*{
+  /*display: grid;
+  grid-template-rows: 600px;
+  grid-template-columns: 300px 300px;
+  column-gap: 20px;
+  border: 2px;
   border-style: solid;
-  border-width: 5px;
-  border-radius: 50%;
-}
-
-p.funfacts {
+  text-align: left;
+  margin-left: 15%;
+  margin-right: 15%;
+} */
+/* p {
   margin-top: 40px;
   margin-bottom: 0px;
-}
-/*//////////// footer styles//////////////*/
+} */
+/*///////////////////////// footer styles///////////////////////*/
 
 footer {
   box-sizing: border-box;
@@ -85,6 +112,7 @@ footer {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   padding: 0px;
   font-size: 15px;
+  /* background-color: #1446A0; */
 }
 footer div {
   float: left;
@@ -111,7 +139,7 @@ footer a:visited {
   color: grey;
 }
 footer a:hover {
-  color: #f2901f;
+  color: #F18805;
 }
 footer a:active {
   color: #006e90;
@@ -120,5 +148,5 @@ footer a:active {
 footer p.to-the-top a {
   float: right;
   margin: 15px 15px;
-  color: #f2901f;
+  color:#1446A0;
 }
