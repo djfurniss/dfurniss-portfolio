@@ -1,4 +1,4 @@
-# Hi! I'm **Denasia**!
+# Hi! I'm Denasia!
 
 ## Welcome to my portfolio
 
