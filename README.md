@@ -1,3 +1,6 @@
-# dfurniss-portfolio
+# Hi! I'm Denasia!
 
-As part of an assignment from Thinkful's prep course, this web page is a start to my professional portfolio.
+## Welcome to my portfolio
+
+This portfolio started as an assignment during Thinkful's Software Engineering Immersion program. 
+As I continue to grow as a developer, I will continue to apply the skills I learn into building this portfolio! 
