@@ -10,14 +10,15 @@ hr {
 header h1 {
   font-size: 90px;
   color: #F18805;
-  margin-top: 30px;
-  margin-bottom: 10px;
+  margin: 10px 0;
   text-align: center;
   /* box-sizing: border-box; */
   /*background-color: rgb(206, 171, 239);*/
   /* font-family: ""; */
 }
-
+header h2{
+  text-align: center;
+}
 header nav {
   background-color:#1446A0;
   padding: 10px;
@@ -32,9 +33,25 @@ header nav a {
   /* border: black solid 2px;
   border-radius: 10%; */
 }
+header section{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;;
+}
+header img{
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* margin-top: 30px; */
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border: #F18805 solid 5px;
+  border-radius: 50%;
+}
 
 /*Desktop Header Mods*/
-@media all and (min-width: 600px){
+@media all and (min-width: 800px){
   header nav{
     text-align: start;
   }
@@ -44,6 +61,18 @@ header nav a {
   }
   header nav a:active {
     color: #006e90;
+  }
+  .media{
+    display:flex;
+    flex-flow: row wrap-reverse;
+    justify-content: space-around;
+    padding: 40px 20px;
+  }
+  .media img{
+    order: -1;
+  }
+  .media div{
+    text-align: center;
   }
 }
 
@@ -56,17 +85,6 @@ header nav a {
   /* justify-content: center; */
 }
 
-img {
-  /* margin-left: auto;
-  margin-right: auto; */
-  /* margin-top: 30px; */
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
-  border: #F18805 solid 5px;
-  border-radius: 50%;
-  justify-self: center;
-}
 main {
   font-size: 20px;
   text-align: center;
